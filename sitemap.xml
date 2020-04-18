@@ -3,6 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://ranaparth.github.io/2020/04/starting-a-blog/</loc>
+    <lastmod>2020-04-18T14:34:28+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://ranaparth.github.io/tags/blog/</loc>
     <lastmod>2020-04-18T14:34:28+05:30</lastmod>
     <changefreq>monthly</changefreq>
@@ -25,13 +32,6 @@
   
   <url>
     <loc>https://ranaparth.github.io/posts/</loc>
-    <lastmod>2020-04-18T14:34:28+05:30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://ranaparth.github.io/2020/04/starting-a-blog/</loc>
     <lastmod>2020-04-18T14:34:28+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
