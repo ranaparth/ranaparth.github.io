@@ -10,5 +10,16 @@
         <atom:link href="https://ranaparth.github.io/series/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>Starting a Blog</title>
+      <link>https://ranaparth.github.io/2020/04/starting-a-blog/</link>
+      <pubDate>Sat, 18 Apr 2020 14:34:28 +0530</pubDate>
+      
+      <guid>https://ranaparth.github.io/2020/04/starting-a-blog/</guid>
+      <description>I wasn&amp;rsquo;t sure of starting a blog at first. I am a back-end developer. Any work I have done on CSS, JS or HTML was in college days. I thought it would be easy if I can publish blogs writing markdown files.
+Few things that I was concerned about:
+  Capital — I wanted the investment to be minimum. Didn’t wanted to manage a server or traffic on the site.</description>
+    </item>
+    
   </channel>
 </rss>
