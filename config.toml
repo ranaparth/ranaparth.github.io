@@ -4,6 +4,7 @@ languageCode = "en"
 
 title = "Bits, Bytes, and Beyond"
 
+# Enable a theme
 theme = "gokarna"
 
 # Automatically generate robots.txt
