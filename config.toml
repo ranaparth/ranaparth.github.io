@@ -2,7 +2,7 @@ baseURL = "http://ranaparth.github.io/"
 defaultContentLanguage = "en"
 languageCode = "en"
 
-title = "Rana Parth's Blog"
+title = "Bits, Bytes, and Beyond"
 
 theme = "gokarna"
 
@@ -11,33 +11,80 @@ enableRobotsTXT = true
 
 [menu]
   [[menu.main]]
-    # Unique identifier for a menu item
     identifier = "posts"
-
-    url = "/posts/"
-    
-    # You can add extra information before the name (HTML format is supported), such as icons
-    pre = ""
-
-    # You can add extra information after the name (HTML format is supported), such as icons
-    post = ""
-
-    # Display name
     name = "Posts"
-
-    # Weights are used to determine the ordering
-    weight = 1
+    url = "/posts/" 
+    weight = 2
+    pre = "<span data-feather='file-text'></span>"
 
   [[menu.main]]
     identifier = "tags"
     name = "Tags"
     url = "/tags/"
-    weight = 2
+    weight = 3
+    pre = "<span data-feather='tag'></span>"
+
+  [[menu.main]]
+    identifier = "pages"
+    name = "Pages"
+    url = "/pages/"
+    weight = 4
+    pre = "<span data-feather='code'></span>"
     
   [[menu.main]]
     identifier = "github"
-    url = "https://github.com"
-    weight = 3
-    
-    # We use feather-icons: https://feathericons.com/
+    url = "https://github.com/ranaparth"
+    weight = 5
     pre = "<span data-feather='github'></span>"
+  
+  [[menu.main]]
+    identifier = "rss"
+    url = "/index.xml"
+    weight = 6
+    pre = "<span data-feather='rss'></span>"
+
+[params]
+  # URL for the avatar on homepage
+  avatarURL = "/images/avatar.png"
+
+  # Choose one of size-xs, size-s, size-m, size-l & size-xl. (Default: size-m)
+  avatarSize = "size-xl"
+
+  # Description to display on homepage
+  description = "Do or do not, there is no try! — Yoda"
+
+  # Accent color is displayed when you hover over <a> tags
+  accentColor = "#079EDA"
+
+  # You can use this to inject any HTML in the <head> tag.
+  # Ideal usecase for this is to import custom js/css or add your analytics snippet
+  customHeadHTML = ""
+
+  # Keywords relevant for SEO
+  metaKeywords = ["blog", "gokarna", "hugo"]
+
+  # If you want to display posts on the homepage, the options are
+  # "popular" (order posts by weight), "recent" (order posts by date)
+  # or "" (do not display, default option)
+  showPostsOnHomePage = "recent"
+
+  # Footer text
+  footer = "The Seekers"
+
+  # If you want to display next and previous buttone set this true
+  togglePreviousAndNextButtons = "true"
+
+  # Social icons
+  socialIcons = [
+      {name = "twitter", url = "https://twitter.com/ranaamritparth"},
+      {name = "linkedin", url = "https://www.linkedin.com/in/ranaamritparth/"},
+      {name = "github", url = "https://github.com/ranaparth"},
+      {name = "facebook", url = "https://facebook.com/ranaamritparth"},
+      {name = "instagram", url = "https://instagram.com/hardlyathletic"},
+    ]
+
+[markup]
+  [markup.tableOfContents]
+    startLevel = 1
+    endLevel = 3
+    ordered = false
